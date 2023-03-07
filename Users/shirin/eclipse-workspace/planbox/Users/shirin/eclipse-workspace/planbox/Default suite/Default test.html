@@ -1,0 +1,174 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>19/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Mar 07 16:35:43 EST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>691 seconds (691957 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='planbox.SanityTestOveral.main()'><b>main</b><br>Test class: planbox.SanityTestOveral<br>Parameters: https://galp.planbox.com/default/Login?signInWithSecretKey=true, 1e7b79e5bf5c471493378ffaafa5e7ce:N3F7L0oqziGFNek1wxQF4wQToHhl7doShoHEeP7DMeLoUtEHs43MIlrdTk81x6YqUENum2KSK3Bnk2KB7tD2FPjj7khe6dxGcSvPKvI32RISMfEW8SIICvTjQ5MK2M1H, https://galp.planbox.com/default/challenges, https://galp.planbox.com/default/ideas, https://galp.planbox.com/default/home/homepage, Galp</td>
+<td></td>
+<td>28</td>
+<td>planbox.SanityTestOveral@4d5650ae</td></tr>
+<tr>
+<td title='planbox.SanityTestOveral.main()'><b>main</b><br>Test class: planbox.SanityTestOveral<br>Parameters: https://molex.planbox.com/default/Login?signInWithSecretKey=true, 1e7b79e5bf5c471493378ffaafa5e7ce:N3F7L0oqziGFNek1wxQF4wQToHhl7doShoHEeP7DMeLoUtEHs43MIlrdTk81x6YqUENum2KSK3Bnk2KB7tD2FPjj7khe6dxGcSvPKvI32RISMfEW8SIICvTjQ5MK2M1H, https://molex.planbox.com/default/Challenges, https://molex.planbox.com/default/ideas, https://molex.planbox.com/default/home/homepage, Molex</td>
+<td></td>
+<td>28</td>
+<td>planbox.SanityTestOveral@4d5650ae</td></tr>
+<tr>
+<td title='planbox.SanityTestOveral.main()'><b>main</b><br>Test class: planbox.SanityTestOveral<br>Parameters: https://cae.planbox.com/default/login?signinwithsecretkey=true, 94ca8947c7bf4471a55cc31fa168f7b2:DePge0dHX7NcWFWXmiy9w3mMoE0KRlMnb5PuH5KXqYROGJnN19qWSoloG3qlqCwzyGXT9dWoUBT0g8iJkgf6UOGijkQZJ147XRuvucgLyIY5hRTLOHRke1FcPrefLmhu, https://cae.planbox.com/default/challenges, https://cae.planbox.com/default/ideas, https://cae.planbox.com/default/home/homepage, Cae</td>
+<td></td>
+<td>42</td>
+<td>planbox.SanityTestOveral@4d5650ae</td></tr>
+<tr>
+<td title='planbox.SanityTestOveral.main()'><b>main</b><br>Test class: planbox.SanityTestOveral<br>Parameters: https://sagen.planbox.com/default/Login?signinwithsecretkey=true, 1e7b79e5bf5c471493378ffaafa5e7ce:N3F7L0oqziGFNek1wxQF4wQToHhl7doShoHEeP7DMeLoUtEHs43MIlrdTk81x6YqUENum2KSK3Bnk2KB7tD2FPjj7khe6dxGcSvPKvI32RISMfEW8SIICvTjQ5MK2M1H, https://sagen.planbox.com/default/challenges, https://sagen.planbox.com/default/ideas, https://sagen.planbox.com/default/home/homepage, Sagen</td>
+<td></td>
+<td>36</td>
+<td>planbox.SanityTestOveral@4d5650ae</td></tr>
+<tr>
+<td title='planbox.SanityTestOveral.main()'><b>main</b><br>Test class: planbox.SanityTestOveral<br>Parameters: https://onecoverys.planbox.com/default/Login?signInWithSecretKey=true, 1e7b79e5bf5c471493378ffaafa5e7ce:N3F7L0oqziGFNek1wxQF4wQToHhl7doShoHEeP7DMeLoUtEHs43MIlrdTk81x6YqUENum2KSK3Bnk2KB7tD2FPjj7khe6dxGcSvPKvI32RISMfEW8SIICvTjQ5MK2M1H, https://onecoverys.planbox.com/Coverys/Challenges, https://onecoverys.planbox.com/Coverys/Ideas, https://onecoverys.planbox.com/Coverys/home/homepage, Oneconvery</td>
+<td></td>
+<td>43</td>
+<td>planbox.SanityTestOveral@4d5650ae</td></tr>
+<tr>
+<td title='planbox.SanityTestOveral.main()'><b>main</b><br>Test class: planbox.SanityTestOveral<br>Parameters: https://kinectrics.planbox.ca/default//Login?signinwithsecretkey=true, 1e7b79e5bf5c471493378ffaafa5e7ce:N3F7L0oqziGFNek1wxQF4wQToHhl7doShoHEeP7DMeLoUtEHs43MIlrdTk81x6YqUENum2KSK3Bnk2KB7tD2FPjj7khe6dxGcSvPKvI32RISMfEW8SIICvTjQ5MK2M1H, https://kinectrics.planbox.ca/default/challenges, https://kinectrics.planbox.ca/default/ideas, https://kinectrics.planbox.ca/default/home/homepage, Kinectrics</td>
+<td></td>
+<td>29</td>
+<td>planbox.SanityTestOveral@4d5650ae</td></tr>
+<tr>
+<td title='planbox.SanityTestOveral.main()'><b>main</b><br>Test class: planbox.SanityTestOveral<br>Parameters: https://td.planbox.com/default/Login?signInWithSecretKey=true, 1e7b79e5bf5c471493378ffaafa5e7ce:N3F7L0oqziGFNek1wxQF4wQToHhl7doShoHEeP7DMeLoUtEHs43MIlrdTk81x6YqUENum2KSK3Bnk2KB7tD2FPjj7khe6dxGcSvPKvI32RISMfEW8SIICvTjQ5MK2M1H, https://td.planbox.com/default/challenges, https://td.planbox.com/default/ideas, https://td.planbox.com/default/home/homepage, Td bank</td>
+<td></td>
+<td>35</td>
+<td>planbox.SanityTestOveral@4d5650ae</td></tr>
+<tr>
+<td title='planbox.SanityTestOveral.main()'><b>main</b><br>Test class: planbox.SanityTestOveral<br>Parameters: http://energycommunity.planbox.com/default/Login?signInWithSecretKey=true, 1e7b79e5bf5c471493378ffaafa5e7ce:N3F7L0oqziGFNek1wxQF4wQToHhl7doShoHEeP7DMeLoUtEHs43MIlrdTk81x6YqUENum2KSK3Bnk2KB7tD2FPjj7khe6dxGcSvPKvI32RISMfEW8SIICvTjQ5MK2M1H, http://energycommunity.planbox.com/default/challenges, http://energycommunity.planbox.com/default/ideas, http://energycommunity.planbox.com/default/home/homepage, Energy Community</td>
+<td></td>
+<td>24</td>
+<td>planbox.SanityTestOveral@4d5650ae</td></tr>
+<tr>
+<td title='planbox.SanityTestOveral.main()'><b>main</b><br>Test class: planbox.SanityTestOveral<br>Parameters: https://planbox.ca/laval_innov-default/Login?signinwithsecretkey=true, 1e7b79e5bf5c471493378ffaafa5e7ce:N3F7L0oqziGFNek1wxQF4wQToHhl7doShoHEeP7DMeLoUtEHs43MIlrdTk81x6YqUENum2KSK3Bnk2KB7tD2FPjj7khe6dxGcSvPKvI32RISMfEW8SIICvTjQ5MK2M1H, https://planbox.ca/laval_innov-default/challenges, https://planbox.ca/laval_innov-default/ideas, https://planbox.ca/laval_innov-default/home/homepage, Laval innov</td>
+<td></td>
+<td>41</td>
+<td>planbox.SanityTestOveral@4d5650ae</td></tr>
+<tr>
+<td title='planbox.SanityTestOveral.main()'><b>main</b><br>Test class: planbox.SanityTestOveral<br>Parameters: https://polilib.planbox.com/default/Login?signinwithsecretkey=true, 1e7b79e5bf5c471493378ffaafa5e7ce:N3F7L0oqziGFNek1wxQF4wQToHhl7doShoHEeP7DMeLoUtEHs43MIlrdTk81x6YqUENum2KSK3Bnk2KB7tD2FPjj7khe6dxGcSvPKvI32RISMfEW8SIICvTjQ5MK2M1H, https://polilib.planbox.com/default/challenges, https://polilib.planbox.com/default/ideas, https://polilib.planbox.com/default/home/homepage, Polilib</td>
+<td></td>
+<td>37</td>
+<td>planbox.SanityTestOveral@4d5650ae</td></tr>
+<tr>
+<td title='planbox.SanityTestOveral.main()'><b>main</b><br>Test class: planbox.SanityTestOveral<br>Parameters: https://planbox.ca/translinktomorrow-default/Login?signinwithsecretkey=true, 1e7b79e5bf5c471493378ffaafa5e7ce:N3F7L0oqziGFNek1wxQF4wQToHhl7doShoHEeP7DMeLoUtEHs43MIlrdTk81x6YqUENum2KSK3Bnk2KB7tD2FPjj7khe6dxGcSvPKvI32RISMfEW8SIICvTjQ5MK2M1H, https://planbox.ca/translinktomorrow-default/challenges, https://planbox.ca/translinktomorrow-default/ideas, https://planbox.ca/translinktomorrow-default/home/homepage, Translinktomorrow</td>
+<td></td>
+<td>36</td>
+<td>planbox.SanityTestOveral@4d5650ae</td></tr>
+<tr>
+<td title='planbox.SanityTestOveral.main()'><b>main</b><br>Test class: planbox.SanityTestOveral<br>Parameters: https://georgiancollege.planbox.com/default/Login?signinwithsecretkey=true, 1e7b79e5bf5c471493378ffaafa5e7ce:N3F7L0oqziGFNek1wxQF4wQToHhl7doShoHEeP7DMeLoUtEHs43MIlrdTk81x6YqUENum2KSK3Bnk2KB7tD2FPjj7khe6dxGcSvPKvI32RISMfEW8SIICvTjQ5MK2M1H, https://georgiancollege.planbox.com/default/challenges, https://georgiancollege.planbox.com/default/ideas, https://georgiancollege.planbox.com/default/home/homepage, Georgian college</td>
+<td></td>
+<td>45</td>
+<td>planbox.SanityTestOveral@4d5650ae</td></tr>
+<tr>
+<td title='planbox.SanityTestOveral.main()'><b>main</b><br>Test class: planbox.SanityTestOveral<br>Parameters: https://libertymutual-solarialabs.planbox.com/default/login?signinwithsecretkey=true, 1e7b79e5bf5c471493378ffaafa5e7ce:N3F7L0oqziGFNek1wxQF4wQToHhl7doShoHEeP7DMeLoUtEHs43MIlrdTk81x6YqUENum2KSK3Bnk2KB7tD2FPjj7khe6dxGcSvPKvI32RISMfEW8SIICvTjQ5MK2M1H, https://libertymutual-solarialabs.planbox.com/default/challenges, https://libertymutual-solarialabs.planbox.com/default/ideas, https://libertymutual-solarialabs.planbox.com/default/home/homepage, Libertymutual</td>
+<td></td>
+<td>33</td>
+<td>planbox.SanityTestOveral@4d5650ae</td></tr>
+<tr>
+<td title='planbox.SanityTestOveral.main()'><b>main</b><br>Test class: planbox.SanityTestOveral<br>Parameters: https://baxter.planbox.com/default/login?signinwithsecretkey=true, 1e7b79e5bf5c471493378ffaafa5e7ce:N3F7L0oqziGFNek1wxQF4wQToHhl7doShoHEeP7DMeLoUtEHs43MIlrdTk81x6YqUENum2KSK3Bnk2KB7tD2FPjj7khe6dxGcSvPKvI32RISMfEW8SIICvTjQ5MK2M1H, https://baxter.planbox.com/default/challenges, https://baxter.planbox.com/default/ideas, https://baxter.planbox.com/default/home/homepage, Baxter</td>
+<td></td>
+<td>30</td>
+<td>planbox.SanityTestOveral@4d5650ae</td></tr>
+<tr>
+<td title='planbox.SanityTestOveral.main()'><b>main</b><br>Test class: planbox.SanityTestOveral<br>Parameters: https://deloitte-sandbox.planbox.com/default/login?signInWithSecretKey=true, 1e7b79e5bf5c471493378ffaafa5e7ce:N3F7L0oqziGFNek1wxQF4wQToHhl7doShoHEeP7DMeLoUtEHs43MIlrdTk81x6YqUENum2KSK3Bnk2KB7tD2FPjj7khe6dxGcSvPKvI32RISMfEW8SIICvTjQ5MK2M1H, https://deloitte-sandbox.planbox.com/default/challenges, https://deloitte-sandbox.planbox.com/default/ideas, https://deloitte-sandbox.planbox.com/default/home/homepage, Delopte</td>
+<td></td>
+<td>38</td>
+<td>planbox.SanityTestOveral@4d5650ae</td></tr>
+<tr>
+<td title='planbox.SanityTestOveral.main()'><b>main</b><br>Test class: planbox.SanityTestOveral<br>Parameters: http://cargill.planbox.com/default/Login?signInWithSecretKey=true, 1e7b79e5bf5c471493378ffaafa5e7ce:N3F7L0oqziGFNek1wxQF4wQToHhl7doShoHEeP7DMeLoUtEHs43MIlrdTk81x6YqUENum2KSK3Bnk2KB7tD2FPjj7khe6dxGcSvPKvI32RISMfEW8SIICvTjQ5MK2M1H, http://cargill.planbox.com/default/challenges, http://cargill.planbox.com/default/ideas, http://cargill.planbox.com/default/home/homepage, Cargil</td>
+<td></td>
+<td>32</td>
+<td>planbox.SanityTestOveral@4d5650ae</td></tr>
+<tr>
+<td title='planbox.SanityTestOveral.main()'><b>main</b><br>Test class: planbox.SanityTestOveral<br>Parameters: http://dow.planbox.com/default/Login?signInWithSecretKey=true, 1e7b79e5bf5c471493378ffaafa5e7ce:N3F7L0oqziGFNek1wxQF4wQToHhl7doShoHEeP7DMeLoUtEHs43MIlrdTk81x6YqUENum2KSK3Bnk2KB7tD2FPjj7khe6dxGcSvPKvI32RISMfEW8SIICvTjQ5MK2M1H, https://dow.planbox.com/default/challenges, http://dow.planbox.com/default/ideas, http://dow.planbox.com/default/home/homepage, Dow</td>
+<td></td>
+<td>33</td>
+<td>planbox.SanityTestOveral@4d5650ae</td></tr>
+<tr>
+<td title='planbox.SanityTestOveral.main()'><b>main</b><br>Test class: planbox.SanityTestOveral<br>Parameters: https://cae-sandbox.planbox.com/default/login?signinwithsecretkey=true, 94ca8947c7bf4471a55cc31fa168f7b2:DePge0dHX7NcWFWXmiy9w3mMoE0KRlMnb5PuH5KXqYROGJnN19qWSoloG3qlqCwzyGXT9dWoUBT0g8iJkgf6UOGijkQZJ147XRuvucgLyIY5hRTLOHRke1FcPrefLmhu, https://cae-sandbox.planbox.com/default/challenges, https://cae-sandbox.planbox.com/default/ideas, https://cae-sandbox.planbox.com/default/home/homepage, Cae sandbox</td>
+<td></td>
+<td>39</td>
+<td>planbox.SanityTestOveral@4d5650ae</td></tr>
+<tr>
+<td title='planbox.SanityTestOveral.main()'><b>main</b><br>Test class: planbox.SanityTestOveral<br>Parameters: https://metlife.planbox.com/default/Login?signInWithSecretKey=true, 1e7b79e5bf5c471493378ffaafa5e7ce:N3F7L0oqziGFNek1wxQF4wQToHhl7doShoHEeP7DMeLoUtEHs43MIlrdTk81x6YqUENum2KSK3Bnk2KB7tD2FPjj7khe6dxGcSvPKvI32RISMfEW8SIICvTjQ5MK2M1H, https://metlife.planbox.com/default/Challenges, https://metlife.planbox.com/default/ideas, https://metlife.planbox.com/default/home/homepage, Metlife</td>
+<td></td>
+<td>49</td>
+<td>planbox.SanityTestOveral@4d5650ae</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<p>Thu Jan 12 21:09:00 EST 2023 WARNING {level=WARNING, message=https://cargill.planbox.com/default/Login?signInWithSecretKey=true - [DOM] Found 2 elements with non-unique id #Searchbox: (More info: https://goo.gl/9p2vKq) %o %o, timestamp=1673575740024}]]>
+    </line>
+    <line>
+      <![CDATA[<p>Thu Jan 12 21:09:03 EST 2023 SEVERE {level=SEVERE, message=https://dow.planbox.com/default/Login?signInWithSecretKey=true - Access to XMLHttpRequest at 'https://login.microsoftonline.com/c3e32f53-cb7f-4809-968d-1cc4ccc785fe/saml2?SAMLRequest=fVLLbtswEPwVgYfeKOphOxZruXDjFjXgtkLs9NBLQK2WCQGKVEkqj7%2BvJKdterAvPAxmdnZ2uPKi1R3f9OHB3OCvHn2IdtuS3C3mTZoIKGi6QKCzIitoDdBQmNWikIWsBc5J9AOdV9aUJIsTEu2873FnfBAmDFCS5TRJaZofk4wnBU%2ByuJgtf5JoO7goI8KkfAih85wxbe%2BViVsFznorgzVaGYzBtgxyzDM5zynUV5LOlklBi8WyoSnADACulnOJbMyRkeizdYBTmpJIoT2OW1XCe%2FWIf5HK2WDB6o%2FKNMrcl6R3hlvhledGtOh5AH7YfN3zIRWvTyTPvxyPFa2%2BH44k2niPblz%2F2hrft%2BgO6B4V4O3N%2Fl%2Bgxj7FnRamts9TDNGpEWNgHb6mHZf%2B4LDTL7dOl2eE70TbvUfnrLtAYnenkWw%2Fvp9GNomeW208nxq%2BnLF7PQhZr0Y2n4p0b%2FSX5eLPOcj63HoNStHrwFbsjcHJrePfhom7bWW1gpexwVaE84ZpnE6IaqicqLw3vkNQUmEzVKO1fbp2KMLQd3D9UDdbn1z%2F%2F%2Bbr3w%3D%3D&RelayState=https%253a%252f%252fdow.planbox.com%252fdefault%252fLogin%252fRedirectFromAuthentication%253fpath%253d%25252Fdefault%25252FHome%25252FCreateDraftCountCookie%25253FlastLoginDate%25253D' (redirected from 'https://dow.planbox.com/default/Home/CreateDraftCountCookie?lastLoginDate=') from origin 'https://dow.planbox.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource., timestamp=1673575743403}]]>
+    </line>
+    <line>
+      <![CDATA[<p>Thu Jan 12 21:09:03 EST 2023 SEVERE {level=SEVERE, message=https://login.microsoftonline.com/c3e32f53-cb7f-4809-968d-1cc4ccc785fe/saml2?SAMLRequest=fVLLbtswEPwVgYfeKOphOxZruXDjFjXgtkLs9NBLQK2WCQGKVEkqj7%2BvJKdterAvPAxmdnZ2uPKi1R3f9OHB3OCvHn2IdtuS3C3mTZoIKGi6QKCzIitoDdBQmNWikIWsBc5J9AOdV9aUJIsTEu2873FnfBAmDFCS5TRJaZofk4wnBU%2ByuJgtf5JoO7goI8KkfAih85wxbe%2BViVsFznorgzVaGYzBtgxyzDM5zynUV5LOlklBi8WyoSnADACulnOJbMyRkeizdYBTmpJIoT2OW1XCe%2FWIf5HK2WDB6o%2FKNMrcl6R3hlvhledGtOh5AH7YfN3zIRWvTyTPvxyPFa2%2BH44k2niPblz%2F2hrft%2BgO6B4V4O3N%2Fl%2Bgxj7FnRamts9TDNGpEWNgHb6mHZf%2B4LDTL7dOl2eE70TbvUfnrLtAYnenkWw%2Fvp9GNomeW208nxq%2BnLF7PQhZr0Y2n4p0b%2FSX5eLPOcj63HoNStHrwFbsjcHJrePfhom7bWW1gpexwVaE84ZpnE6IaqicqLw3vkNQUmEzVKO1fbp2KMLQd3D9UDdbn1z%2F%2F%2Bbr3w%3D%3D&RelayState=https%253a%252f%252fdow.planbox.com%252fdefault%252fLogin%252fRedirectFromAuthentication%253fpath%253d%25252Fdefault%25252FHome%25252FCreateDraftCountCookie%25253FlastLoginDate%25253D - Failed to load resource: net::ERR_FAILED, timestamp=1673575743407}]]>
+    </line>
+    <line>
+      <![CDATA[<p>Thu Jan 12 21:09:27 EST 2023 WARNING {level=WARNING, message=https://iconplc.planbox.com/default/login?signinwithsecretkey=true - [DOM] Found 2 elements with non-unique id #Searchbox: (More info: https://goo.gl/9p2vKq) %o %o, timestamp=1673575767786}]]>
+    </line>
+    <line>
+      <![CDATA[<p>Thu Jan 12 21:09:40 EST 2023 WARNING {level=WARNING, message=chrome-error://chromewebdata/ 6747:8 "crbug/1173575, non-JS module files deprecated.", timestamp=1673575780880}]]>
+    </line>
+    <line>
+      <![CDATA[<p>Thu Jan 12 21:10:55 EST 2023 WARNING {level=WARNING, message=https://metlife.planbox.com/default/Login?signInWithSecretKey=true - [DOM] Found 2 elements with non-unique id #Searchbox: (More info: https://goo.gl/9p2vKq) %o %o, timestamp=1673575855321}]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-01-12T21:08:56 EST" name="Default suite" finished-at="2023-01-12T21:10:55 EST" duration-ms="119438">
+    <groups>
+    </groups>
+    <test started-at="2023-01-12T21:08:56 EST" name="Default test" finished-at="2023-01-12T21:10:55 EST" duration-ms="119438">
+      <class name="planbox.waitForPage">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:planbox.waitForPage@5d0a1059]" started-at="2023-01-12T21:08:56 EST" name="setUp" finished-at="2023-01-12T21:08:58 EST" duration-ms="1894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="openingPage(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:planbox.waitForPage@5d0a1059]" started-at="2023-01-12T21:08:58 EST" name="openingPage" data-provider="URLS" finished-at="2023-01-12T21:09:00 EST" duration-ms="1596" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://cargill.planbox.com/default/Login?signInWithSecretKey=true]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1e7b79e5bf5c471493378ffaafa5e7ce:N3F7L0oqziGFNek1wxQF4wQToHhl7doShoHEeP7DMeLoUtEHs43MIlrdTk81x6YqUENum2KSK3Bnk2KB7tD2FPjj7khe6dxGcSvPKvI32RISMfEW8SIICvTjQ5MK2M1H]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://cargill.planbox.com/default/challenges]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[http://cargill.planbox.com/default/ideas]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://cargill.planbox.com/default/home/homepage]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<p>Thu Jan 12 21:09:00 EST 2023 WARNING {level=WARNING, message=https://cargill.planbox.com/default/Login?signInWithSecretKey=true - [DOM] Found 2 elements with non-unique id #Searchbox: (More info: https://goo.gl/9p2vKq) %o %o, timestamp=1673575740024}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openingPage -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:planbox.waitForPage@5d0a1059]" started-at="2023-01-12T21:09:00 EST" name="screenShot" finished-at="2023-01-12T21:09:00 EST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openingPage status=SUCCESS method=waitForPage.openingPage(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:planbox.waitForPage@5d0a1059] output=<p>Thu Jan 12 21:09:00 EST 2023 WARNING {level=WARNING, message=https://cargill.planbox.com/default/Login?signInWithSecretKey=true - [DOM] Found 2 elements with non-unique id #Searchbox: (More info: https://goo.gl/9p2vKq) %o %o, timestamp=1673575740024}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method signature="openingPage(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:planbox.waitForPage@5d0a1059]" started-at="2023-01-12T21:09:00 EST" name="openingPage" data-provider="URLS" finished-at="2023-01-12T21:09:01 EST" duration-ms="1866" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://dow.planbox.com/default/Login?signInWithSecretKey=true]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1e7b79e5bf5c471493378ffaafa5e7ce:N3F7L0oqziGFNek1wxQF4wQToHhl7doShoHEeP7DMeLoUtEHs43MIlrdTk81x6YqUENum2KSK3Bnk2KB7tD2FPjj7khe6dxGcSvPKvI32RISMfEW8SIICvTjQ5MK2M1H]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://dow.planbox.com/default/challenges]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[http://dow.planbox.com/default/ideas]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://dow.planbox.com/default/home/homepage]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingPage -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:planbox.waitForPage@5d0a1059]" started-at="2023-01-12T21:09:01 EST" name="screenShot" finished-at="2023-01-12T21:09:01 EST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openingPage status=SUCCESS method=waitForPage.openingPage(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:planbox.waitForPage@5d0a1059] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method signature="openingPage(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:planbox.waitForPage@5d0a1059]" started-at="2023-01-12T21:09:01 EST" name="openingPage" data-provider="URLS" finished-at="2023-01-12T21:09:04 EST" duration-ms="2110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://galp.planbox.com/default/Login?signInWithSecretKey=true]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1e7b79e5bf5c471493378ffaafa5e7ce:N3F7L0oqziGFNek1wxQF4wQToHhl7doShoHEeP7DMeLoUtEHs43MIlrdTk81x6YqUENum2KSK3Bnk2KB7tD2FPjj7khe6dxGcSvPKvI32RISMfEW8SIICvTjQ5MK2M1H]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://galp.planbox.com/default/challenges]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://galp.planbox.com/default/ideas]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[https://galp.planbox.com/default/home/homepage]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<p>Thu Jan 12 21:09:03 EST 2023 SEVERE {level=SEVERE, message=https://dow.planbox.com/default/Login?signInWithSecretKey=true - Access to XMLHttpRequest at 'https://login.microsoftonline.com/c3e32f53-cb7f-4809-968d-1cc4ccc785fe/saml2?SAMLRequest=fVLLbtswEPwVgYfeKOphOxZruXDjFjXgtkLs9NBLQK2WCQGKVEkqj7%2BvJKdterAvPAxmdnZ2uPKi1R3f9OHB3OCvHn2IdtuS3C3mTZoIKGi6QKCzIitoDdBQmNWikIWsBc5J9AOdV9aUJIsTEu2873FnfBAmDFCS5TRJaZofk4wnBU%2ByuJgtf5JoO7goI8KkfAih85wxbe%2BViVsFznorgzVaGYzBtgxyzDM5zynUV5LOlklBi8WyoSnADACulnOJbMyRkeizdYBTmpJIoT2OW1XCe%2FWIf5HK2WDB6o%2FKNMrcl6R3hlvhledGtOh5AH7YfN3zIRWvTyTPvxyPFa2%2BH44k2niPblz%2F2hrft%2BgO6B4V4O3N%2Fl%2Bgxj7FnRamts9TDNGpEWNgHb6mHZf%2B4LDTL7dOl2eE70TbvUfnrLtAYnenkWw%2Fvp9GNomeW208nxq%2BnLF7PQhZr0Y2n4p0b%2FSX5eLPOcj63HoNStHrwFbsjcHJrePfhom7bWW1gpexwVaE84ZpnE6IaqicqLw3vkNQUmEzVKO1fbp2KMLQd3D9UDdbn1z%2F%2F%2Bbr3w%3D%3D&RelayState=https%253a%252f%252fdow.planbox.com%252fdefault%252fLogin%252fRedirectFromAuthentication%253fpath%253d%25252Fdefault%25252FHome%25252FCreateDraftCountCookie%25253FlastLoginDate%25253D' (redirected from 'https://dow.planbox.com/default/Home/CreateDraftCountCookie?lastLoginDate=') from origin 'https://dow.planbox.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource., timestamp=1673575743403}]]>
+            </line>
+            <line>
+              <![CDATA[<p>Thu Jan 12 21:09:03 EST 2023 SEVERE {level=SEVERE, message=https://login.microsoftonline.com/c3e32f53-cb7f-4809-968d-1cc4ccc785fe/saml2?SAMLRequest=fVLLbtswEPwVgYfeKOphOxZruXDjFjXgtkLs9NBLQK2WCQGKVEkqj7%2BvJKdterAvPAxmdnZ2uPKi1R3f9OHB3OCvHn2IdtuS3C3mTZoIKGi6QKCzIitoDdBQmNWikIWsBc5J9AOdV9aUJIsTEu2873FnfBAmDFCS5TRJaZofk4wnBU%2ByuJgtf5JoO7goI8KkfAih85wxbe%2BViVsFznorgzVaGYzBtgxyzDM5zynUV5LOlklBi8WyoSnADACulnOJbMyRkeizdYBTmpJIoT2OW1XCe%2FWIf5HK2WDB6o%2FKNMrcl6R3hlvhledGtOh5AH7YfN3zIRWvTyTPvxyPFa2%2BH44k2niPblz%2F2hrft%2BgO6B4V4O3N%2Fl%2Bgxj7FnRamts9TDNGpEWNgHb6mHZf%2B4LDTL7dOl2eE70TbvUfnrLtAYnenkWw%2Fvp9GNomeW208nxq%2BnLF7PQhZr0Y2n4p0b%2FSX5eLPOcj63HoNStHrwFbsjcHJrePfhom7bWW1gpexwVaE84ZpnE6IaqicqLw3vkNQUmEzVKO1fbp2KMLQd3D9UDdbn1z%2F%2F%2Bbr3w%3D%3D&RelayState=https%253a%252f%252fdow.planbox.com%252fdefault%252fLogin%252fRedirectFromAuthentication%253fpath%253d%25252Fdefault%25252FHome%25252FCreateDraftCountCookie%25253FlastLoginDate%25253D - Failed to load resource: net::ERR_FAILED, timestamp=1673575743407}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openingPage -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:planbox.waitForPage@5d0a1059]" started-at="2023-01-12T21:09:04 EST" name="screenShot" finished-at="2023-01-12T21:09:04 EST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openingPage status=SUCCESS method=waitForPage.openingPage(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:planbox.waitForPage@5d0a1059] output=<p>Thu Jan 12 21:09:03 EST 2023 SEVERE {level=SEVERE, message=https://dow.planbox.com/default/Login?signInWithSecretKey=true - Access to XMLHttpRequest at 'https://login.microsoftonline.com/c3e32f53-cb7f-4809-968d-1cc4ccc785fe/saml2?SAMLRequest=fVLLbtswEPwVgYfeKOphOxZruXDjFjXgtkLs9NBLQK2WCQGKVEkqj7%2BvJKdterAvPAxmdnZ2uPKi1R3f9OHB3OCvHn2IdtuS3C3mTZoIKGi6QKCzIitoDdBQmNWikIWsBc5J9AOdV9aUJIsTEu2873FnfBAmDFCS5TRJaZofk4wnBU%2ByuJgtf5JoO7goI8KkfAih85wxbe%2BViVsFznorgzVaGYzBtgxyzDM5zynUV5LOlklBi8WyoSnADACulnOJbMyRkeizdYBTmpJIoT2OW1XCe%2FWIf5HK2WDB6o%2FKNMrcl6R3hlvhledGtOh5AH7YfN3zIRWvTyTPvxyPFa2%2BH44k2niPblz%2F2hrft%2BgO6B4V4O3N%2Fl%2Bgxj7FnRamts9TDNGpEWNgHb6mHZf%2B4LDTL7dOl2eE70TbvUfnrLtAYnenkWw%2Fvp9GNomeW208nxq%2BnLF7PQhZr0Y2n4p0b%2FSX5eLPOcj63HoNStHrwFbsjcHJrePfhom7bWW1gpexwVaE84ZpnE6IaqicqLw3vkNQUmEzVKO1fbp2KMLQd3D9UDdbn1z%2F%2F%2Bbr3w%3D%3D&RelayState=https%253a%252f%252fdow.planbox.com%252fdefault%252fLogin%252fRedirectFromAuthentication%253fpath%253d%25252Fdefault%25252FHome%25252FCreateDraftCountCookie%25253FlastLoginDate%25253D' (redirected from 'https://dow.planbox.com/default/Home/CreateDraftCountCookie?lastLoginDate=') from origin 'https://dow.planbox.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource., timestamp=1673575743403}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method signature="openingPage(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:planbox.waitForPage@5d0a1059]" started-at="2023-01-12T21:09:04 EST" name="openingPage" data-provider="URLS" finished-at="2023-01-12T21:09:27 EST" duration-ms="23705" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://iconplc.planbox.com/default/login?signinwithsecretkey=true]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1e7b79e5bf5c471493378ffaafa5e7ce:N3F7L0oqziGFNek1wxQF4wQToHhl7doShoHEeP7DMeLoUtEHs43MIlrdTk81x6YqUENum2KSK3Bnk2KB7tD2FPjj7khe6dxGcSvPKvI32RISMfEW8SIICvTjQ5MK2M1H]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://iconplc.planbox.com/default/challenges]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://iconplc.planbox.com/default/ideas]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[https://iconplc.planbox.com/default/home/homepage]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<p>Thu Jan 12 21:09:27 EST 2023 WARNING {level=WARNING, message=https://iconplc.planbox.com/default/login?signinwithsecretkey=true - [DOM] Found 2 elements with non-unique id #Searchbox: (More info: https://goo.gl/9p2vKq) %o %o, timestamp=1673575767786}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openingPage -->
+        <test-method signature="openingPage(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:planbox.waitForPage@5d0a1059]" started-at="2023-01-12T21:09:27 EST" name="openingPage" data-provider="URLS" finished-at="2023-01-12T21:09:40 EST" duration-ms="13109" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://libertymutual.planbox.com/default/Login?signInWithSecretKey=true]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1e7b79e5bf5c471493378ffaafa5e7ce:N3F7L0oqziGFNek1wxQF4wQToHhl7doShoHEeP7DMeLoUtEHs43MIlrdTk81x6YqUENum2KSK3Bnk2KB7tD2FPjj7khe6dxGcSvPKvI32RISMfEW8SIICvTjQ5MK2M1H]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://libertymutual.planbox.com/default/challenges]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://libertymutual.planbox.com/default/ideas]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[https://libertymutual.planbox.com/default/home/homepage]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[THE INVITATION KEY SECTION IS NOT DISPLAYED]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: THE INVITATION KEY SECTION IS NOT DISPLAYED
+at org.testng.Assert.fail(Assert.java:99)
+at planbox.waitForPage.openingPage(waitForPage.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<p>Thu Jan 12 21:09:40 EST 2023 WARNING {level=WARNING, message=chrome-error://chromewebdata/ 6747:8 "crbug/1173575, non-JS module files deprecated.", timestamp=1673575780880}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openingPage -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:planbox.waitForPage@5d0a1059]" started-at="2023-01-12T21:09:27 EST" name="screenShot" finished-at="2023-01-12T21:09:27 EST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openingPage status=SUCCESS method=waitForPage.openingPage(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:planbox.waitForPage@5d0a1059] output=<p>Thu Jan 12 21:09:27 EST 2023 WARNING {level=WARNING, message=https://iconplc.planbox.com/default/login?signinwithsecretkey=true - [DOM] Found 2 elements with non-unique id #Searchbox: (More info: https://goo.gl/9p2vKq) %o %o, timestamp=1673575767786}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:planbox.waitForPage@5d0a1059]" started-at="2023-01-12T21:09:40 EST" name="screenShot" finished-at="2023-01-12T21:09:41 EST" duration-ms="243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openingPage status=FAILURE method=waitForPage.openingPage(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:planbox.waitForPage@5d0a1059] output=<p>Thu Jan 12 21:09:40 EST 2023 WARNING {level=WARNING, message=chrome-error://chromewebdata/ 6747:8 "crbug/1173575, non-JS module files deprecated.", timestamp=1673575780880}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method signature="openingPage(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:planbox.waitForPage@5d0a1059]" started-at="2023-01-12T21:09:41 EST" name="openingPage" data-provider="URLS" finished-at="2023-01-12T21:09:50 EST" duration-ms="9630" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://mdinnovation.planbox.com/default/Login?signInWithSecretKey=true]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1e7b79e5bf5c471493378ffaafa5e7ce:N3F7L0oqziGFNek1wxQF4wQToHhl7doShoHEeP7DMeLoUtEHs43MIlrdTk81x6YqUENum2KSK3Bnk2KB7tD2FPjj7khe6dxGcSvPKvI32RISMfEW8SIICvTjQ5MK2M1H]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://mdinnovation.planbox.com/default/challenges]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://mdinnovation.planbox.com/default/ideas]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[https://mdinnovation.planbox.com/default/home/homepage]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingPage -->
+        <test-method signature="openingPage(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:planbox.waitForPage@5d0a1059]" started-at="2023-01-12T21:09:50 EST" name="openingPage" data-provider="URLS" finished-at="2023-01-12T21:10:55 EST" duration-ms="64715" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://metlife.planbox.com/default/Login?signInWithSecretKey=true]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1e7b79e5bf5c471493378ffaafa5e7ce:N3F7L0oqziGFNek1wxQF4wQToHhl7doShoHEeP7DMeLoUtEHs43MIlrdTk81x6YqUENum2KSK3Bnk2KB7tD2FPjj7khe6dxGcSvPKvI32RISMfEW8SIICvTjQ5MK2M1H]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://metlife.planbox.com/default/challenges]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://metlife.planbox.com/default/ideas]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[https://metlife.planbox.com/default/home/homepage]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<p>Thu Jan 12 21:10:55 EST 2023 WARNING {level=WARNING, message=https://metlife.planbox.com/default/Login?signInWithSecretKey=true - [DOM] Found 2 elements with non-unique id #Searchbox: (More info: https://goo.gl/9p2vKq) %o %o, timestamp=1673575855321}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openingPage -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:planbox.waitForPage@5d0a1059]" started-at="2023-01-12T21:09:50 EST" name="screenShot" finished-at="2023-01-12T21:09:50 EST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openingPage status=SUCCESS method=waitForPage.openingPage(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:planbox.waitForPage@5d0a1059] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:planbox.waitForPage@5d0a1059]" started-at="2023-01-12T21:10:55 EST" name="screenShot" finished-at="2023-01-12T21:10:55 EST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openingPage status=SUCCESS method=waitForPage.openingPage(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:planbox.waitForPage@5d0a1059] output=<p>Thu Jan 12 21:10:55 EST 2023 WARNING {level=WARNING, message=https://metlife.planbox.com/default/Login?signInWithSecretKey=true - [DOM] Found 2 elements with non-unique id #Searchbox: (More info: https://goo.gl/9p2vKq) %o %o, timestamp=1673575855321}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:planbox.waitForPage@5d0a1059]" started-at="2023-01-12T21:10:55 EST" name="tearDown" finished-at="2023-01-12T21:10:55 EST" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- planbox.waitForPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

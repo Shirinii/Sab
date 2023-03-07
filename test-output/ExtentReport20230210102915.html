@@ -1,0 +1,1208 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Report</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Sanity</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Feb. 10, 2023 10:29:15 a.m.</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<a class="dropdown-item" status="warning" href="#"><span>Warning</span><span class="status warning"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="warning" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Cargil</p>
+            <p class="text-sm">
+              <span>10:29:16 a.m.</span> / <span>00:01:59:465</span>
+              <span class="badge warning-bg log float-right">Warning</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-warning">Cargil</h5>
+<span class='badge badge-success'>02.10.2023 10:29:16 a.m.</span>
+<span class='badge badge-danger'>02.10.2023 10:31:15 a.m.</span>
+<span class='badge badge-default'>00:01:59:465</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>10:31:04 a.m.</td>
+        <td>
+          <p>SEVERE {level=SEVERE, message=https://fonts.googleapis.com/css?family=&quot - Failed to load resource: the server responded with a status of 400 (), timestamp=1676043010955}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>10:31:04 a.m.</td>
+        <td>
+          <span class='badge white-text red'><p>THERE IS A SEVER ERROR ON THIS URL<p>https://cargill.planbox.com/default/Ideas/57?backbuttonurl=N0hErOEnPxnAuQl5FI5yc2UTrYpniYlqGTChzIgmLdBe7Yu64eJEma%2FSiEjnSjm1rGvzWLzZQpFreHu7%2FAZcRiNY%2FAboIKsz1eb3SmNNq4Q%3D</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>10:31:04 a.m.</td>
+        <td>
+          <p>SEVERE {level=SEVERE, message=https://idealink.blob.core.windows.net/innovate-storage/cargill/usercontent/2f782588-db0c-4665-83f8-bd25b78e4344.jpg - Failed to load resource: net::ERR_TIMED_OUT, timestamp=1676043062776}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>10:31:04 a.m.</td>
+        <td>
+          <span class='badge white-text red'><p>THERE IS A SEVER ERROR ON THIS URL<p>https://cargill.planbox.com/default/Ideas/57?backbuttonurl=N0hErOEnPxnAuQl5FI5yc2UTrYpniYlqGTChzIgmLdBe7Yu64eJEma%2FSiEjnSjm1rGvzWLzZQpFreHu7%2FAZcRiNY%2FAboIKsz1eb3SmNNq4Q%3D</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>10:31:15 a.m.</td>
+        <td>
+          <p>SEVERE {level=SEVERE, message=https://fonts.googleapis.com/css?family=&quot - Failed to load resource: the server responded with a status of 400 (), timestamp=1676043073438}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>10:31:15 a.m.</td>
+        <td>
+          <span class='badge white-text red'><p>THERE IS A SEVER ERROR ON THIS URL<p>https://cargill.planbox.com/default/Ideas/57?backbuttonurl=N0hErOEnPxnQ8Juw9DKQ0jZL8WYd2loqe1lA8Om%2BdDPzlyKZqYBdB5O37boQBjuv1q0Lcn9sstiJq5DQy7ayzfhhcEf6x%2BGB</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:31:15 a.m.</td>
+        <td>
+          <span class='badge white-text black'>time duration: 119463</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="warning" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Dow</p>
+            <p class="text-sm">
+              <span>10:31:15 a.m.</span> / <span>00:00:45:689</span>
+              <span class="badge warning-bg log float-right">Warning</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-warning">Dow</h5>
+<span class='badge badge-success'>02.10.2023 10:31:15 a.m.</span>
+<span class='badge badge-danger'>02.10.2023 10:32:01 a.m.</span>
+<span class='badge badge-default'>00:00:45:689</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>10:31:19 a.m.</td>
+        <td>
+          <p>SEVERE {level=SEVERE, message=https://dow.planbox.com/default/Login?signInWithSecretKey=true - Access to XMLHttpRequest at 'https://login.microsoftonline.com/c3e32f53-cb7f-4809-968d-1cc4ccc785fe/saml2?SAMLRequest=fVLLbtswEPwVgYfeqAdl1zJru3DjFjXgtELs9NBLQJPLhABFqlwqj7%2BvJKdterAvPAxmdnZ2uEDR2Javu%2FjgbuBXBxiT7WZJ7iqdKyZVTvOSAZ0IDXQumKaKTWaCqaKSRUmSHxDQeLckLM1JskXsYOswChd7KGclzRkt8kMx5WXBiyplP0my6T2ME3HUPcTYIs8y6%2B%2BNSxsjg0evo3fWOEilbzJZQsn0tKTyONN0UuVzOn9fKVpIOZFSzqqphmxIwUjyxQcJY5Yl0cIiDDvVAtE8wl%2BkDj566e0n45Rx90vSBce9QIPciQaQR8n36%2Bsd7zPx44mE%2FOvhUNP6%2B%2F5AkjUihGH9K%2B%2BwayDsITwaCbc3u3%2BBlH9KWyvc0T%2BPMURrBiyTPsBr2mHpjwFa%2B3Ib7PKM8J1o2g8Qgg8XSNndaWS2G97PA5skz411yMd%2BL2dsXw9CVouBzccawxv9Zbn4cw6yOreeAi06G7NF9sbg5Nbyb%2F3E7ab21siXocFGxPOGRVqMiFFUj1TeOWxBGm1A9dVY65%2BuAojY9x1D19edrU6u%2F3%2Fy1W8%3D&RelayState=https%253a%252f%252fdow.planbox.com%252fdefault%252fLogin%252fRedirectFromAuthentication%253fpath%253d%25252Fdefault%25252FHome%25252FCreateDraftCountCookie%25253FlastLoginDate%25253D' (redirected from 'https://dow.planbox.com/default/Home/CreateDraftCountCookie?lastLoginDate=') from origin 'https://dow.planbox.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource., timestamp=1676043078729}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>10:31:19 a.m.</td>
+        <td>
+          <span class='badge white-text red'><p>THERE IS A SEVER ERROR ON THIS URL<p>https://dow.planbox.com/default/Login?signInWithSecretKey=true</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>10:31:19 a.m.</td>
+        <td>
+          <p>SEVERE {level=SEVERE, message=https://login.microsoftonline.com/c3e32f53-cb7f-4809-968d-1cc4ccc785fe/saml2?SAMLRequest=fVLLbtswEPwVgYfeqAdl1zJru3DjFjXgtELs9NBLQJPLhABFqlwqj7%2BvJKdterAvPAxmdnZ2uEDR2Javu%2FjgbuBXBxiT7WZJ7iqdKyZVTvOSAZ0IDXQumKaKTWaCqaKSRUmSHxDQeLckLM1JskXsYOswChd7KGclzRkt8kMx5WXBiyplP0my6T2ME3HUPcTYIs8y6%2B%2BNSxsjg0evo3fWOEilbzJZQsn0tKTyONN0UuVzOn9fKVpIOZFSzqqphmxIwUjyxQcJY5Yl0cIiDDvVAtE8wl%2BkDj566e0n45Rx90vSBce9QIPciQaQR8n36%2Bsd7zPx44mE%2FOvhUNP6%2B%2F5AkjUihGH9K%2B%2BwayDsITwaCbc3u3%2BBlH9KWyvc0T%2BPMURrBiyTPsBr2mHpjwFa%2B3Ib7PKM8J1o2g8Qgg8XSNndaWS2G97PA5skz411yMd%2BL2dsXw9CVouBzccawxv9Zbn4cw6yOreeAi06G7NF9sbg5Nbyb%2F3E7ab21siXocFGxPOGRVqMiFFUj1TeOWxBGm1A9dVY65%2BuAojY9x1D19edrU6u%2F3%2Fy1W8%3D&RelayState=https%253a%252f%252fdow.planbox.com%252fdefault%252fLogin%252fRedirectFromAuthentication%253fpath%253d%25252Fdefault%25252FHome%25252FCreateDraftCountCookie%25253FlastLoginDate%25253D - Failed to load resource: net::ERR_FAILED, timestamp=1676043078734}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>10:31:19 a.m.</td>
+        <td>
+          <span class='badge white-text red'><p>THERE IS A SEVER ERROR ON THIS URL<p>https://dow.planbox.com/default/Login?signInWithSecretKey=true</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:32:01 a.m.</td>
+        <td>
+          <span class='badge white-text black'>time duration: 45689</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="warning" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Galp</p>
+            <p class="text-sm">
+              <span>10:32:01 a.m.</span> / <span>00:00:31:583</span>
+              <span class="badge warning-bg log float-right">Warning</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-warning">Galp</h5>
+<span class='badge badge-success'>02.10.2023 10:32:01 a.m.</span>
+<span class='badge badge-danger'>02.10.2023 10:32:32 a.m.</span>
+<span class='badge badge-default'>00:00:31:583</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>10:32:17 a.m.</td>
+        <td>
+          <p>SEVERE {level=SEVERE, message=https://galp.planbox.com/api/galp-default/latest/ActivityDetails.SyncUserActivity - Failed to load resource: the server responded with a status of 403 (), timestamp=1676043135267}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>10:32:17 a.m.</td>
+        <td>
+          <span class='badge white-text red'><p>THERE IS A SEVER ERROR ON THIS URL<p>https://galp.planbox.com/default/home/homepage</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>10:32:21 a.m.</td>
+        <td>
+          <span class='badge white-text red'>There is a NO ACTIVE CHALLENGE for this client</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:32:32 a.m.</td>
+        <td>
+          <span class='badge white-text black'>time duration: 31583</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Metlife</p>
+            <p class="text-sm">
+              <span>10:32:32 a.m.</span> / <span>00:00:51:302</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Metlife</h5>
+<span class='badge badge-success'>02.10.2023 10:32:32 a.m.</span>
+<span class='badge badge-danger'>02.10.2023 10:33:24 a.m.</span>
+<span class='badge badge-default'>00:00:51:302</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:33:10 a.m.</td>
+        <td>
+          <span class='badge white-text red'>PROBLEM: No IDEAS display in idea tab in challenge view</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>10:33:24 a.m.</td>
+        <td>
+          <p>SEVERE {level=SEVERE, message=https://fonts.googleapis.com/css?family=roboto - Failed to load resource: the server responded with a status of 400 (), timestamp=1676043200945}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>10:33:24 a.m.</td>
+        <td>
+          <span class='badge white-text red'><p>THERE IS A SEVER ERROR ON THIS URL<p>https://metlife.planbox.com/default/Ideas/32?backbuttonurl=N0hErOEnPxnQ8Juw9DKQ0jZL8WYd2loqe1lA8Om%2BdDPzlyKZqYBdB5O37boQBjuv1q0Lcn9sstiJq5DQy7ayzfhhcEf6x%2BGB</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>10:33:24 a.m.</td>
+        <td>
+          <p>SEVERE {level=SEVERE, message=https://fonts.googleapis.com/css?family=poppins - Failed to load resource: the server responded with a status of 400 (), timestamp=1676043200945}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>10:33:24 a.m.</td>
+        <td>
+          <span class='badge white-text red'><p>THERE IS A SEVER ERROR ON THIS URL<p>https://metlife.planbox.com/default/Ideas/32?backbuttonurl=N0hErOEnPxnQ8Juw9DKQ0jZL8WYd2loqe1lA8Om%2BdDPzlyKZqYBdB5O37boQBjuv1q0Lcn9sstiJq5DQy7ayzfhhcEf6x%2BGB</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>10:33:24 a.m.</td>
+        <td>
+          <p>SEVERE {level=SEVERE, message=https://fonts.googleapis.com/css?family=&quot - Failed to load resource: the server responded with a status of 400 (), timestamp=1676043200945}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>10:33:24 a.m.</td>
+        <td>
+          <span class='badge white-text red'><p>THERE IS A SEVER ERROR ON THIS URL<p>https://metlife.planbox.com/default/Ideas/32?backbuttonurl=N0hErOEnPxnQ8Juw9DKQ0jZL8WYd2loqe1lA8Om%2BdDPzlyKZqYBdB5O37boQBjuv1q0Lcn9sstiJq5DQy7ayzfhhcEf6x%2BGB</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:33:24 a.m.</td>
+        <td>
+          <span class='badge white-text black'>time duration: 51302</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Molex</p>
+            <p class="text-sm">
+              <span>10:33:24 a.m.</span> / <span>00:00:41:889</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Molex</h5>
+<span class='badge badge-success'>02.10.2023 10:33:24 a.m.</span>
+<span class='badge badge-danger'>02.10.2023 10:34:05 a.m.</span>
+<span class='badge badge-default'>00:00:41:889</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:34:05 a.m.</td>
+        <td>
+          <span class='badge white-text black'>time duration: 41889</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="warning" test-id="6"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Energy Community</p>
+            <p class="text-sm">
+              <span>10:34:05 a.m.</span> / <span>00:00:25:864</span>
+              <span class="badge warning-bg log float-right">Warning</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-warning">Energy Community</h5>
+<span class='badge badge-success'>02.10.2023 10:34:05 a.m.</span>
+<span class='badge badge-danger'>02.10.2023 10:34:31 a.m.</span>
+<span class='badge badge-default'>00:00:25:864</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>10:34:21 a.m.</td>
+        <td>
+          <span class='badge white-text red'>There is a NO ACTIVE CHALLENGE for this client</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:34:31 a.m.</td>
+        <td>
+          <span class='badge white-text black'>time duration: 25864</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Oneconvery</p>
+            <p class="text-sm">
+              <span>10:34:31 a.m.</span> / <span>00:00:46:927</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Oneconvery</h5>
+<span class='badge badge-success'>02.10.2023 10:34:31 a.m.</span>
+<span class='badge badge-danger'>02.10.2023 10:35:18 a.m.</span>
+<span class='badge badge-default'>00:00:46:927</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:35:18 a.m.</td>
+        <td>
+          <span class='badge white-text black'>time duration: 46926</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="warning" test-id="8"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Libertymutual</p>
+            <p class="text-sm">
+              <span>10:35:18 a.m.</span> / <span>00:00:36:081</span>
+              <span class="badge warning-bg log float-right">Warning</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-warning">Libertymutual</h5>
+<span class='badge badge-success'>02.10.2023 10:35:18 a.m.</span>
+<span class='badge badge-danger'>02.10.2023 10:35:54 a.m.</span>
+<span class='badge badge-default'>00:00:36:081</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>10:35:26 a.m.</td>
+        <td>
+          <p>SEVERE {level=SEVERE, message=https://idealink.blob.core.windows.net/innovate-storage/libertysolarialabs/usercontent/ - Failed to load resource: the server responded with a status of 404 (The specified blob does not exist.), timestamp=1676043324529}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>10:35:26 a.m.</td>
+        <td>
+          <span class='badge white-text red'><p>THERE IS A SEVER ERROR ON THIS URL<p>https://libertymutual-solarialabs.planbox.com/default</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>10:35:26 a.m.</td>
+        <td>
+          <p>SEVERE {level=SEVERE, message=https://idealink.blob.core.windows.net/innovate-storage/libertysolarialabs/usercontent/8dba0392-11d2-4ff5-b9d8-77bc24f4d313.png - Failed to load resource: the server responded with a status of 404 (The specified blob does not exist.), timestamp=1676043324543}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>10:35:26 a.m.</td>
+        <td>
+          <span class='badge white-text red'><p>THERE IS A SEVER ERROR ON THIS URL<p>https://libertymutual-solarialabs.planbox.com/default</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>10:35:29 a.m.</td>
+        <td>
+          <p>SEVERE {level=SEVERE, message=https://idealink.blob.core.windows.net/innovate-storage/libertysolarialabs/usercontent/ - Failed to load resource: the server responded with a status of 404 (The specified blob does not exist.), timestamp=1676043327740}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>10:35:29 a.m.</td>
+        <td>
+          <span class='badge white-text red'><p>THERE IS A SEVER ERROR ON THIS URL<p>https://libertymutual-solarialabs.planbox.com/default/home/homepage</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>10:35:29 a.m.</td>
+        <td>
+          <p>SEVERE {level=SEVERE, message=https://idealink.blob.core.windows.net/innovate-storage/libertysolarialabs/usercontent/8dba0392-11d2-4ff5-b9d8-77bc24f4d313.png - Failed to load resource: the server responded with a status of 404 (The specified blob does not exist.), timestamp=1676043327744}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>10:35:29 a.m.</td>
+        <td>
+          <span class='badge white-text red'><p>THERE IS A SEVER ERROR ON THIS URL<p>https://libertymutual-solarialabs.planbox.com/default/home/homepage</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:35:54 a.m.</td>
+        <td>
+          <span class='badge white-text black'>time duration: 36081</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="warning" test-id="9"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Baxter</p>
+            <p class="text-sm">
+              <span>10:35:54 a.m.</span> / <span>00:00:44:424</span>
+              <span class="badge warning-bg log float-right">Warning</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-warning">Baxter</h5>
+<span class='badge badge-success'>02.10.2023 10:35:54 a.m.</span>
+<span class='badge badge-danger'>02.10.2023 10:36:39 a.m.</span>
+<span class='badge badge-default'>00:00:44:424</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>10:36:07 a.m.</td>
+        <td>
+          <p>SEVERE {level=SEVERE, message=https://idealink.blob.core.windows.net/innovate-storage/baxter/usercontent/ - Failed to load resource: the server responded with a status of 404 (The specified blob does not exist.), timestamp=1676043364791}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>10:36:07 a.m.</td>
+        <td>
+          <span class='badge white-text red'><p>THERE IS A SEVER ERROR ON THIS URL<p>https://baxter.planbox.com/default</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>10:36:10 a.m.</td>
+        <td>
+          <p>SEVERE {level=SEVERE, message=https://idealink.blob.core.windows.net/innovate-storage/baxter/usercontent/ - Failed to load resource: the server responded with a status of 404 (The specified blob does not exist.), timestamp=1676043368016}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>10:36:10 a.m.</td>
+        <td>
+          <span class='badge white-text red'><p>THERE IS A SEVER ERROR ON THIS URL<p>https://baxter.planbox.com/default/home/homepage</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:36:39 a.m.</td>
+        <td>
+          <span class='badge white-text black'>time duration: 44424</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="warning" test-id="10"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Td bank</p>
+            <p class="text-sm">
+              <span>10:36:39 a.m.</span> / <span>00:00:27:582</span>
+              <span class="badge warning-bg log float-right">Warning</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-warning">Td bank</h5>
+<span class='badge badge-success'>02.10.2023 10:36:39 a.m.</span>
+<span class='badge badge-danger'>02.10.2023 10:37:06 a.m.</span>
+<span class='badge badge-default'>00:00:27:582</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>10:36:48 a.m.</td>
+        <td>
+          <p>SEVERE {level=SEVERE, message=https://idealink.blob.core.windows.net/innovate-storage/td/usercontent/ - Failed to load resource: the server responded with a status of 404 (The specified blob does not exist.), timestamp=1676043405771}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>10:36:48 a.m.</td>
+        <td>
+          <span class='badge white-text red'><p>THERE IS A SEVER ERROR ON THIS URL<p>https://td.planbox.com/default</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>10:36:51 a.m.</td>
+        <td>
+          <p>SEVERE {level=SEVERE, message=https://idealink.blob.core.windows.net/innovate-storage/td/usercontent/ - Failed to load resource: the server responded with a status of 404 (The specified blob does not exist.), timestamp=1676043409385}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>10:36:51 a.m.</td>
+        <td>
+          <span class='badge white-text red'><p>THERE IS A SEVER ERROR ON THIS URL<p>https://td.planbox.com/default/home/homepage</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>10:36:55 a.m.</td>
+        <td>
+          <span class='badge white-text red'>There is a NO ACTIVE CHALLENGE for this client</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:37:06 a.m.</td>
+        <td>
+          <span class='badge white-text black'>time duration: 27582</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="11"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Georgian college</p>
+            <p class="text-sm">
+              <span>10:37:06 a.m.</span> / <span>00:01:21:492</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Georgian college</h5>
+<span class='badge badge-success'>02.10.2023 10:37:06 a.m.</span>
+<span class='badge badge-danger'>02.10.2023 10:38:28 a.m.</span>
+<span class='badge badge-default'>00:01:21:492</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:38:28 a.m.</td>
+        <td>
+          <span class='badge white-text black'>time duration: 81492</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="warning" test-id="12"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Idealab kindredcu</p>
+            <p class="text-sm">
+              <span>10:38:28 a.m.</span> / <span>00:00:52:024</span>
+              <span class="badge warning-bg log float-right">Warning</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-warning">Idealab kindredcu</h5>
+<span class='badge badge-success'>02.10.2023 10:38:28 a.m.</span>
+<span class='badge badge-danger'>02.10.2023 10:39:20 a.m.</span>
+<span class='badge badge-default'>00:00:52:024</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>10:39:04 a.m.</td>
+        <td>
+          <span class='badge white-text red'>THERE IS NO IDEA TAB</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:39:20 a.m.</td>
+        <td>
+          <span class='badge white-text black'>time duration: 52024</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="13"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Kinectrics</p>
+            <p class="text-sm">
+              <span>10:39:20 a.m.</span> / <span>00:01:06:858</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Kinectrics</h5>
+<span class='badge badge-success'>02.10.2023 10:39:20 a.m.</span>
+<span class='badge badge-danger'>02.10.2023 10:40:27 a.m.</span>
+<span class='badge badge-default'>00:01:06:858</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:40:27 a.m.</td>
+        <td>
+          <span class='badge white-text black'>time duration: 66858</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="14"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Cae</p>
+            <p class="text-sm">
+              <span>10:40:27 a.m.</span> / <span>00:01:17:646</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Cae</h5>
+<span class='badge badge-success'>02.10.2023 10:40:27 a.m.</span>
+<span class='badge badge-danger'>02.10.2023 10:41:44 a.m.</span>
+<span class='badge badge-default'>00:01:17:646</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:41:44 a.m.</td>
+        <td>
+          <span class='badge white-text black'>time duration: 77646</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="15"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Cae sandbox</p>
+            <p class="text-sm">
+              <span>10:41:44 a.m.</span> / <span>00:00:50:587</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Cae sandbox</h5>
+<span class='badge badge-success'>02.10.2023 10:41:44 a.m.</span>
+<span class='badge badge-danger'>02.10.2023 10:42:35 a.m.</span>
+<span class='badge badge-default'>00:00:50:587</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:42:21 a.m.</td>
+        <td>
+          <span class='badge white-text red'>PROBLEM: No IDEAS display in idea tab in challenge view</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:42:35 a.m.</td>
+        <td>
+          <span class='badge white-text black'>time duration: 50587</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="warning" test-id="16"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Polilib</p>
+            <p class="text-sm">
+              <span>10:42:35 a.m.</span> / <span>00:00:27:779</span>
+              <span class="badge warning-bg log float-right">Warning</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-warning">Polilib</h5>
+<span class='badge badge-success'>02.10.2023 10:42:35 a.m.</span>
+<span class='badge badge-danger'>02.10.2023 10:43:03 a.m.</span>
+<span class='badge badge-default'>00:00:27:779</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>10:42:44 a.m.</td>
+        <td>
+          <p>SEVERE {level=SEVERE, message=https://innovatecentralcanada.blob.core.windows.net/innovate-storage/polilib/usercontent/ - Failed to load resource: the server responded with a status of 404 (The specified blob does not exist.), timestamp=1676043762222}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>10:42:44 a.m.</td>
+        <td>
+          <span class='badge white-text red'><p>THERE IS A SEVER ERROR ON THIS URL<p>https://polilib.planbox.com/default</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>10:42:44 a.m.</td>
+        <td>
+          <p>SEVERE {level=SEVERE, message=https://innovatecentralcanada.blob.core.windows.net/innovate-storage/polilib/usercontent/8dba0392-11d2-4ff5-b9d8-77bc24f4d313.png - Failed to load resource: the server responded with a status of 404 (The specified blob does not exist.), timestamp=1676043762222}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>10:42:44 a.m.</td>
+        <td>
+          <span class='badge white-text red'><p>THERE IS A SEVER ERROR ON THIS URL<p>https://polilib.planbox.com/default</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>10:42:47 a.m.</td>
+        <td>
+          <p>SEVERE {level=SEVERE, message=https://innovatecentralcanada.blob.core.windows.net/innovate-storage/polilib/usercontent/8dba0392-11d2-4ff5-b9d8-77bc24f4d313.png - Failed to load resource: the server responded with a status of 404 (The specified blob does not exist.), timestamp=1676043765377}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>10:42:47 a.m.</td>
+        <td>
+          <span class='badge white-text red'><p>THERE IS A SEVER ERROR ON THIS URL<p>https://polilib.planbox.com/default/home/homepage</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>10:42:47 a.m.</td>
+        <td>
+          <p>SEVERE {level=SEVERE, message=https://innovatecentralcanada.blob.core.windows.net/innovate-storage/polilib/usercontent/ - Failed to load resource: the server responded with a status of 404 (The specified blob does not exist.), timestamp=1676043765377}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>10:42:47 a.m.</td>
+        <td>
+          <span class='badge white-text red'><p>THERE IS A SEVER ERROR ON THIS URL<p>https://polilib.planbox.com/default/home/homepage</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>10:42:51 a.m.</td>
+        <td>
+          <span class='badge white-text red'>There is a NO ACTIVE CHALLENGE for this client</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:43:03 a.m.</td>
+        <td>
+          <span class='badge white-text black'>time duration: 27778</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Feb. 10, 2023 10:29:15 a.m.</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Feb. 10, 2023 10:43:03 a.m.</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>5</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>2</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='31%'>
+<b>5</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='12%'><b>2</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='56%'>9</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'><b>0</b> events passed</small></div>
+<div>
+<small data-tooltip='3%'><b>2</b> events failed,
+<b data-tooltip='%'>63</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Cargil":119.465,"Dow":45.689,"Galp":31.583,"Metlife":51.302,"Molex":41.889,"Energy Community":25.864,"Oneconvery":46.927,"Libertymutual":36.081,"Baxter":44.424,"Td bank":27.582,"Georgian college":81.492,"Idealab kindredcu":52.024,"Kinectrics":66.858,"Cae":77.646,"Cae sandbox":50.587,"Polilib":27.779
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>Host Name</td>
+<td>Planbox</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>Production</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 5,
+failParent: 2,
+warningParent: 9,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 0,
+failEvents: 2,
+warningEvents: 47,
+skipEvents: 0,
+infoEvents: 16
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
